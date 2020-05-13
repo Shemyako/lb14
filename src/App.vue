@@ -95,7 +95,7 @@ export default {
 					.put('http://localhost:3000/notes/'+this.notes[index].id, message)
 					.then(res => this.onLoad());
 			}
-			let that = this;
+			//let that = this;
 			//setTimeout(function(){
 			//	that.onLoad();
 			//},3000);
